@@ -7,3 +7,12 @@ A subset of data (20k docs) is provided [here](https://drive.google.com/open?id=
 If you need to train on the whole kp20k dataset, download the [json data](https://drive.google.com/file/d/1ZTQEGZSq06kzlPlOv4yGjbUpoDrNxebR/view) and run `preprocess.py` first. No trained model will be released in the near future.
 
 Note that duplicate papers that appear in popular test datasets (e.g. Inspec, SemEval) are also included in the release. Please be sure to remove them before training.
+
+## Usage under Docker
+
+### Build and Run
+```bash
+$ ./build.sh
+$ ./run.sh
+```
+This folder is mounted to /app
