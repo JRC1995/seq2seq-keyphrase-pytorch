@@ -1,0 +1,13 @@
+data/*
+slurm_output/*
+model/*
+.model
+*.model
+/source_data/
+kp20k_new/*
+
+data/
+/exp/
+/data.zip
+/pred/
+

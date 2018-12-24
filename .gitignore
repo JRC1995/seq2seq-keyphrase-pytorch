@@ -5,6 +5,7 @@ model/*
 .model
 *.model
 /source_data/
+kp20k_new/*
 
 data/
 /exp/
@@ -125,3 +126,4 @@ ENV/
 /prediction/
 /data/
 /.idea/
+
