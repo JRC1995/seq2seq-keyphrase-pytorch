@@ -11,7 +11,7 @@ from __future__ import print_function
 
 import copy
 import heapq
-from queue import PriorityQueue
+from Queue import PriorityQueue
 
 import sys
 import torch
